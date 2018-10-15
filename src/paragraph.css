@@ -1,23 +1,23 @@
-p{
+.paragraph {
 	color:#4A4A4A;
 	font-weight: 300;
 	display: block;
 }
-.paragraph__top{
+.paragraph_top {
 	line-height: 27px;
 	font-size: 20px;
 	text-align: center;
 	width: 620px;
 	height: 28px;
 }
-.paragraph_center{
+.paragraph_center {
 	font-size: 22px;
 	line-height: 30px;
 	text-align: left;
 	width: 300px;
 	height: auto;
 }
-.paragraph__documentation{
+.paragraph_documentation {
 	font-size: 18px;
 	line-height: 25px;
 	text-align: center;
