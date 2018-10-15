@@ -1,0 +1,38 @@
+.link {
+	padding: 3px 7px 3px 40px;
+
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 700;
+	text-decoration: none;
+
+	background-position: 7px center;
+	background-repeat: no-repeat;
+	color: #432e30;
+	border: 2px solid transparent;
+	border-radius: 3px;
+
+	transition: all 170ms;
+}
+
+.link:hover {
+	border-color: #432e30;
+}
+
+.nav:hover .link {
+	opacity: .4;
+}
+
+.nav:hover .link:hover {
+	opacity: 1;
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+}
+
+.link_git {
+	background-image: url('icons/git.svg');
+}
+.link_book {
+	background-image: url('icons/book.svg');
+	background-size: 20px;
+}
