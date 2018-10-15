@@ -1,7 +1,7 @@
 .link {
 	padding: 3px 7px 3px 40px;
 
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: inherit;
 	font-size: 18px;
 	line-height: 25px;
 	font-weight: 700;
@@ -18,15 +18,11 @@
 
 .link:hover {
 	border-color: #432e30;
-}
-
-.nav:hover .link {
-	opacity: .4;
-}
-
-.nav:hover .link:hover {
-	opacity: 1;
 	box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+}
+
+.link:focus{
+	outline: dotted;
 }
 
 .link_git {
