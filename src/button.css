@@ -1,0 +1,40 @@
+.button {
+	outline: none;
+	border: none;
+	background: #fe6a6b;
+	min-height: 51px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-family: inherit;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #faf9fa;
+	cursor: pointer;
+	}
+
+.button_secondary {
+	background-color: inherit;
+	border: 2px solid #432e30;
+	padding: 14px 0px 9px 0px;
+	color: #432e30;
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: 700;
+}
+
+.button:hover {
+	background-color: #f2d9e6;
+}
+
+.button:active {
+  background-color: #f2d9e6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:focus { /*outline=box-shadow */
+  background-color: #f2d9e6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
