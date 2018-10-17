@@ -1,9 +1,3 @@
-@import url('reset.css');
-
-* {
-  box-sizing: border-box; /*delete*/
-}
-
 .container {
   max-width: 960px;
   width: 100%;
