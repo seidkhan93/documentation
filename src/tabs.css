@@ -3,6 +3,7 @@
  	position: relative;	
  	display: flex;
  	justify-content: space-between;
+ 	font-family: inherit;
 }
 
 
@@ -10,15 +11,34 @@
 .tabs {
 	display: flex;
  	align-items: center;
-	
 }
  
 .tabs__item {
-
+ 	margin-right: 20px;
 }
 
-.tab__label  {
+.tabs__item:last-child {
+	margin-right: 0;
+}
+.tabs__label  {
+	padding: 10px 14px;
+	font-size: 20px;
+	line-height: 27px;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: transparent;
+	cursor: pointer;
+	transition: border-bottom-color 250ms;
+}
 
+.tabs__label:hover {
+	border-bottom-color: #432e30;	
+}
+
+.tabs__label:focus { /*outline=box-shadow */
+  background-color: #f2d9e6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .tabs__input {
@@ -28,10 +48,21 @@
 .tabs__content {
 	display: none;
 	position: absolute;
+	background: #f8f8fa;
+	color: #8a7575;
+	border: 1px solid #f0e8e8;
+	width: 100%;
 	left: 0;
-	top:50px;
+	padding: 24px 0 20px 24px;
+	top: 45px;
+	
 }
 
 .tabs__input:checked ~ .tabs__content {
 	display: block;
+
 }
+
+.tabs__input:checked + .tabs__label {
+	border-bottom-color: #432e30;
+}	
