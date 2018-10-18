@@ -1,20 +1,20 @@
 
 .instruction {
- 	position: relative;	
- 	display: flex;
- 	justify-content: space-between;
- 	font-family: inherit;
+	position: relative;	
+	display: flex;
+	justify-content: space-between;
+	font-family: inherit;
 }
 
 
 
 .tabs {
 	display: flex;
- 	align-items: center;
+	align-items: center;
 }
- 
+
 .tabs__item {
- 	margin-right: 20px;
+	margin-right: 20px;
 }
 
 .tabs__item:last-child {
@@ -36,9 +36,9 @@
 }
 
 .tabs__label:focus { /*outline=box-shadow */
-  background-color: #f2d9e6;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+	background-color: #f2d9e6;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
 
 .tabs__input {
