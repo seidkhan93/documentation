@@ -28,13 +28,13 @@
 }
 
 .button:active {
-  background-color: #f2d9e6;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+	background-color: #f2d9e6;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
 
 .button:focus {
-  background-color: #f2d9e6;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+	background-color: #f2d9e6;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
