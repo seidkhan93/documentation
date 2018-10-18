@@ -1,0 +1,37 @@
+
+.instruction {
+ 	position: relative;	
+ 	display: flex;
+ 	justify-content: space-between;
+}
+
+
+
+.tabs {
+	display: flex;
+ 	align-items: center;
+	
+}
+ 
+.tabs__item {
+
+}
+
+.tab__label  {
+
+}
+
+.tabs__input {
+	display: none;
+}
+
+.tabs__content {
+	display: none;
+	position: absolute;
+	left: 0;
+	top:50px;
+}
+
+.tabs__input:checked ~ .tabs__content {
+	display: block;
+}
