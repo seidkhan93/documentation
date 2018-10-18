@@ -1,0 +1,15 @@
+.text-center {
+  text-align: center;
+}
+
+.text-bright {
+  color: #fff !important;
+}
+
+.margin-b-32 {
+  margin-bottom: 32px;
+}
+
+.margin-b-56 {
+  margin-bottom: 56px;
+}

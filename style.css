@@ -1,0 +1,53 @@
+.main {
+  padding: 0 0 48px 0;
+}
+
+/* Nav */
+.nav {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  padding: 0 48px;
+  top: 24px;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+/* Header */
+.header {
+  height: 376px;
+  background: #F8F8FA;
+
+  padding-top: 120px;
+}
+
+.header__img {
+  width: 100%;
+  max-width: 838px;
+
+  margin: 20px auto 0;
+}
+
+.header__img img {
+  width: 100%;
+}
+
+/* Main */
+.main {
+  padding-top: 190px;
+}
+
+/* Footer */
+.footer {
+  min-height: 125px;
+  padding: 48px 0;
+  text-align: center;
+
+  background: #432E30;
+}

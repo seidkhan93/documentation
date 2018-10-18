@@ -7,28 +7,90 @@
   <title>Title</title>
 
   <link rel="stylesheet" href="src/all.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus necessitatibus aliquam reiciendis eligendi eveniet, sint dicta, ducimus. Modi eveniet velit quis error quibusdam illo ratione, fuga, provident odit ducimus!</p>
-      </div>
-      <div class="col-12 col-md-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus necessitatibus aliquam reiciendis eligendi eveniet, sint dicta, ducimus. Modi eveniet velit quis error quibusdam illo ratione, fuga, provident odit ducimus!</p>
-      </div>
-  <div class="col-12 col-md-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus necessitatibus aliquam reiciendis eligendi eveniet, sint dicta, ducimus. Modi eveniet velit quis error quibusdam illo ratione, fuga, provident odit ducimus!</p>
-      </div>   
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a class="link link_git">GitHub</a></li>
+        <li><a class="link link_book">Documentation</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="heading heading_center">Documentation</h1>
+    <p class="paragraph paragraph_top">Take your markdown notes in terminal</p>
+
+    <div class="header__img">
+      <img src="terminal.png" alt="Hero img" srcset="terminal.png 2x"/>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus necessitatibus aliquam reiciendis eligendi eveniet, sint dicta, ducimus. Modi eveniet velit quis error quibusdam illo ratione, fuga, provident odit ducimus!</p>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="instruction">
+        		<h2 class="heading heading_paragraphs">Installation</h2>
+        		<div class="tabs">
+        			<div class="tabs__item">
+        				<input type="radio" class="tabs__input" id ="mac-radio" name="tab" checked aria-hidden="true">
+        				<label for="mac-radio" class="tabs__label">Mac</label>
+        				<p class="tabs__content">
+        					ну ты мажик
+        				</p>
+        			</div>
+
+        			<div class="tabs__item">
+        				<input type="radio" class="tabs__input" id ="linux-radio" name="tab" aria-hidden="true">
+        				<label for="linux-radio" class="tabs__label">Linux</label>
+        				<p class="tabs__content">
+        					хипстор
+        				</p>
+        			</div>
+        			<div class="tabs__item">
+        				<input type="radio" class="tabs__input" id ="windows-radio" name="tab" aria-hidden="true">
+        				<label for="windows-radio" class="tabs__label">Windows</label>
+        				<p class="tabs__content">
+        					если у тебя винда, то заходиш в рутрекер))0
+        				</p>
+        			</div>
+        		</div>
+        	</div>
+        </div>
       </div>
-      <div class="col-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium delectus necessitatibus aliquam reiciendis eligendi eveniet, sint dicta, ducimus. Modi eveniet velit quis error quibusdam illo ratione, fuga, provident odit ducimus!</p>
+
+      <div class="row">
+        <div class="col-4 margin-b-56">
+          <span class="heading heading_paragraphs">Fast & Light</span>
+          <p class="paragraph paragraph_center">Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+        </div>
+
+        <div class="col-4 margin-b-56">
+          <span class="heading heading_paragraphs">File Syncing</span>
+          <p class="paragraph paragraph_center">Save your file in Dropbox then you can access to it from anywhere.</p>
+        </div>
+
+        <div class="col-4 margin-b-56">
+          <span class="heading heading_paragraphs">Secure</span>
+          <p class="paragraph paragraph_center">Encrypt your notes optionally. No one can get to your secrets!</p>
+        </div>
+
+        <div class="col-4 margin-b-56">
+          <span class="heading heading_paragraphs">Configuration</span>
+          <p class="paragraph paragraph_center">Maintain all your settings in a single  config.json  file. Never need to redo the setting every single time jotting down a note.</p>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <p class="paragraph paragraph_documentation margin-b-32">Read our documentation for advanced keybindings and customization</p>
+        <button class="button">Documentation</button>
       </div>
     </div>
-  </div>
+  </main>
+
+  <footer class="footer">
+    <span class="paragraph paragraph_documentation text-bright">Some footer information</span>
+  </footer>
 </body>
 </html>

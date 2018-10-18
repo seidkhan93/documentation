@@ -2,16 +2,19 @@
 	color:#4A4A4A;
 	font-weight: 300;
 }
+
 .paragraph_top {
 	line-height: 27px;
 	font-size: 20px;
 	text-align: center;
 }
+
 .paragraph_center {
 	font-size: 22px;
 	line-height: 30px;
 	text-align: left;
 }
+
 .paragraph_documentation {
 	font-size: 18px;
 	line-height: 25px;

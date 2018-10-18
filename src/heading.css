@@ -10,12 +10,16 @@
 }
 
 .heading_right {
-	text-align: right; 
+	text-align: right;
 }
 
 .heading_paragraphs {
+	display: inline-block;
+
 	font-weight: 600;
-	font-size: 32px;     /*Heading of the paragraphs*/
+	font-size: 32px;
 	line-height: 44px;
 	color: #432e30;
-} 
+
+	margin-bottom: 10px;
+}

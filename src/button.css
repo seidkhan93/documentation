@@ -3,7 +3,7 @@
 	border: none;
 	background: #fe6a6b;
 	min-height: 51px;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 24px;
 	text-align: center;
 	font-family: inherit;
 	font-size: 22px;
@@ -11,7 +11,7 @@
 	font-weight: 700;
 	color: #faf9fa;
 	cursor: pointer;
-	}
+}
 
 .button_secondary {
 	background-color: inherit;
