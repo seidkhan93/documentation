@@ -4,7 +4,7 @@
 	font-family: inherit;
 	font-size: 18px;
 	line-height: 25px;
-	font-weight: 700;
+	font-weight: 600;
 	text-decoration: none;
 
 	background-position: 7px center;
@@ -14,6 +14,7 @@
 	border-radius: 3px;
 
 	transition: all 170ms;
+	cursor: pointer;
 }
 
 .link:hover {

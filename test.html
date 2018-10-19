@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Title</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Title</title>
 
-  <link rel="stylesheet" href="src/all.css">
+    <link rel="stylesheet" href="src/all.css">
 	<link rel="stylesheet" type="text/css" href="tab/tab.css">
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
-    <nav class="nav">
-      <ul>
-        <li><a class="link link_git">GitHub</a></li>
-        <li><a class="link link_book">Documentation</a></li>
-      </ul>
-    </nav>
+	<nav class="nav">
+	  <ul>
+		<li><a class="link link_git">GitHub</a></li>
+		<li><a class="link link_book">Documentation</a></li>
+	  </ul>
+	</nav>
 
-    <h1 class="heading heading_center">Documentation</h1>
-    <p class="paragraph paragraph_top">Take your markdown notes in terminal</p>
+	<h1 class="heading heading_center">Documentation</h1>
+	<p class="paragraph paragraph_top">Take your markdown notes in terminal</p>
 
-    <div class="header__img">
-      <img src="terminal.png" alt="Hero img" srcset="terminal.png 2x"/>
-    </div>
+	<div class="header__img">
+	  <img src="terminal.png" alt="Hero img" srcset="terminal.png 2x"/>
+	</div>
   </header>
 
   <main class="main">
-    <div class="container">
-      <div class="row margin-b-56">
-        <div class="col-12">
-
-          	<div class="tab-container">
-
+	<div class="container margin-b-56">
+	  <div class="row">
+		<div class="col col_12-12">
+			<div class="tab-container">
           		<div class="instruction">
           			<h2 class="heading heading_paragraphs">Installation</h2>
           			<div class="tabs">
@@ -67,42 +65,184 @@
           				mac command
           			</p>
           		</div>
-          	</div>
+			    </div>
+			</div>
+		</div>
+	  </div>
+	 <div class="container">
+	  <div class="row margin-b-56">
+		<div class="col col_4-12 margin-b-56">
+		  <span class="heading heading_paragraphs">Fast & Light</span>
+		  <p class="paragraph paragraph_center">Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+		</div>
 
-        </div>
-      </div>
+		<div class="col col_4-12 margin-b-56">
+		  <span class="heading heading_paragraphs">File Syncing</span>
+		  <p class="paragraph paragraph_center">Save your file in Dropbox then you can access to it from anywhere.</p>
+		</div>
 
-      <div class="row">
-        <div class="col-4 margin-b-56">
-          <span class="heading heading_paragraphs">Fast & Light</span>
-          <p class="paragraph paragraph_center">Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
-        </div>
+		<div class="col col_4-12 margin-b-56">
+		  <span class="heading heading_paragraphs">Secure</span>
+		  <p class="paragraph paragraph_center">Encrypt your notes optionally. No one can get to your secrets!</p>
+		</div>
 
-        <div class="col-4 margin-b-56">
-          <span class="heading heading_paragraphs">File Syncing</span>
-          <p class="paragraph paragraph_center">Save your file in Dropbox then you can access to it from anywhere.</p>
-        </div>
+		<div class="col col_4-12 margin-b-56">
+		  <span class="heading heading_paragraphs">Configuration</span>
+		  <p class="paragraph paragraph_center">Maintain all your settings in a single  config.json  file. Never need to redo the setting every single time jotting down a note.</p>
+		</div>
 
-        <div class="col-4 margin-b-56">
-          <span class="heading heading_paragraphs">Secure</span>
-          <p class="paragraph paragraph_center">Encrypt your notes optionally. No one can get to your secrets!</p>
-        </div>
+		<div class="col col_4-12 margin-b-56">
+		  <span class="heading heading_paragraphs">Highlightings</span>
+		  <p class="paragraph paragraph_center">For better readability, scribbler has a clean, beautiful color scheme allow you to scan files fast.</p>
+		</div>
 
-        <div class="col-4 margin-b-56">
-          <span class="heading heading_paragraphs">Configuration</span>
-          <p class="paragraph paragraph_center">Maintain all your settings in a single  config.json  file. Never need to redo the setting every single time jotting down a note.</p>
-        </div>
-      </div>
+		<div class="col col_4-12 margin-b-56">
+		  <span class="heading heading_paragraphs">Keybindings</span>
+		  <p class="paragraph paragraph_center">You can expect common keybindings for scribbler. Customize   bindings.json   for your own liking! </p>
+		</div>
+	  </div>
+	</div>
+	  
+  	<div class="margin-b-32 main__commands">
+  		<div class="container">
+	  		<div class="row commands">
+				<div class="col col_6-12 commands__parent">
+		  			<h2 class="commands__title commands__title_to_right">Default <br> Keybindings</h2>
+		  			<ul class="text-right">
+		  				<li class="commands__item">
+		  					<p class="commands__text">
+		  						Quit without saving
+		  						<span class="commands__button margin-l-22">Ctrl+Q</span>
+		  					</p>
+		  				</li>
 
-      <div class="row text-center">
-        <p class="paragraph paragraph_documentation margin-b-32">Read our documentation for advanced keybindings and customization</p>
-       <button class="button button_primary">Documentation</button>
-      </div>
-    </div>
+		  				<li class="commands__item">
+		  					<p class="commands__text commands__text_right">Save
+		  					<span class="commands__button margin-l-22">Ctrl+S</span>
+		  				</li>
+
+		  				<li class="commands__item">
+		  					<p class="commands__text commands__text_right">
+		  						Save and Quit
+		  						<span class="commands__button margin-l-22">Ctrl+X</span>
+		  					</p>
+		  				</li>
+
+		  				<li class="commands__item">
+		  					<p class="commands__text commands__text_right">
+		  						Undo
+		  						<span class="commands__button margin-l-22">Cmd+Z</span>
+		  					</p>
+		  				</li>
+
+		  			</ul>
+		  		</div>
+			  	<div class="col col_6-12 commands__parent">
+		  			<h2 class="commands__title commands__title_to_left">Markdown <br> Keybindings</h2>
+		  			<ul>
+		  				<li class="commands__item">		
+		  					<p class="commands__text">
+		  						<span class="commands__button margin-r-22">Ctrl+A</span>
+		  						Insert Link Markdown
+		  					</p>
+		  					
+		  				</li>
+		  				<li class="commands__item">
+		  					<p class="commands__text">
+		  						<span class="commands__button margin-r-22">Ctrl+I</span>
+		  						Insert Image Markdown
+		  					</p>
+		  					
+		  				</li>
+		  				<li class="commands__item">
+		  					<p class="commands__text">
+		  						<span class="commands__button margin-r-22">Ctrl+V</span>
+		  						Insert Youtube Video
+		  					</p>
+		  					
+		  				</li>
+		  				<li class="commands__item">
+		  					<p class="commands__text">
+		  						<span class="commands__button margin-r-22">Ctrl+T</span>
+		  						Insert Table
+		  					</p>
+		  				</li>
+		  			</ul>			
+		  		</div>
+	  		</div>   			
+  		</div>
+ 		
+  	</div>
+	  <div class="row text-center">
+		<p class="paragraph paragraph_documentation margin-b-32">Read our documentation for advanced keybindings and customization</p>
+		<button class="button">Documentation</button>
+	  </div>
+	</div>
   </main>
 
+  <section class="log">
+  	<div class="container">
+  		<h2 class=" margin-b-32 heading_paragraphs">Changelog</h2>
+  		<div class="row log__info">
+  			<div class="col col_4-12 padding-none">
+				<p >
+					<span class="log__verion">v0.7</span>
+					<time class="log__time" datetime="2017-10-25">
+						10/25/2017
+					</time>
+				</p>  				
+  			</div>
+  			<div class="col col_8-12">
+  				<ul class="log__list">
+  					<li class="log__item">Improving the writing workflow with better key bindings</li>
+  					<li class="log__item">Design updates</li>
+  					<li class="log__item">SSL Verification for web hooks</li>
+  					<li class="log__item">Render Emoji </li>
+  				</ul>
+  			</div>
+  		</div>
+  		<div class="row log__info">
+  			<div class="col col_4-12 padding-none">
+				<p >
+					<span class="log__verion">v0.6</span>
+					<time class="log__time" datetime="2017-8-20">
+						8/20/2017
+					</time>
+				</p> 
+  			</div>
+  			<div class="col col_8-12">
+  				<ul class="log__list">
+  					<li class="log__item">Adding Unicode support</li>
+  					<li class="log__item">Basic text highlighting</li>
+  					<li class="log__item">Fresh Design</li>
+  				</ul>
+  			</div>
+  		</div>
+  		<div class="row log__info margin-r-22">
+  			<div class="col col_4-12 padding-none">
+				<p>
+					<span class="log__verion">v0.5</span>
+					<time class="log__time" datetime="2017-7-15">
+						7/15/2017
+					</time>
+				</p>  
+  			</div>
+  			<div class="col col_8-12 margin-b-32">
+  				<ul class="log__list">
+  					<li class="log__item">Save default md file in new folders</li>
+  					<li class="log__item">Ability to quick search on existing notes</li>
+  				</ul>
+  			</div>
+  		</div>
+
+  		<div class="row text-center">
+  			<button class="button button_secondary">Checkout Full Log</button>
+  		</div>
+  	</div>
+  </section>
+
   <footer class="footer">
-    <span class="paragraph paragraph_documentation text-bright">Some footer information</span>
+	<span class="paragraph paragraph_documentation text-bright">Some footer information</span>
   </footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

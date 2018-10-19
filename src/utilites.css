@@ -1,15 +1,32 @@
 .text-center {
-  text-align: center;
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
 }
 
 .text-bright {
-  color: #fff !important;
+	color: #fff !important;
 }
 
 .margin-b-32 {
-  margin-bottom: 32px;
+	margin-bottom: 32px !important; 
 }
 
 .margin-b-56 {
-  margin-bottom: 56px;
+	margin-bottom: 56px;
 }
+
+.margin-r-22 {
+	margin-right: 22px;
+}
+
+.margin-l-22 {
+	margin-left: 22px;
+}
+
+.padding-none {
+	padding: 0 !important;
+}
+
