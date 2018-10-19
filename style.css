@@ -118,7 +118,44 @@
     box-shadow: 0 1px 0 #959dA5;
 }
 
+/* Log */
 
+.log {
+    min-height: 690px;
+    height: auto;
+    padding: 52px 0 60px;
+
+    background-color: #f8f8fa;
+}
+
+.log__info {
+    padding: 20px 0;
+    border-bottom: 2px solid #f0e8e8;
+}
+
+.log__info:last-child {
+    border-bottom: none;
+}
+
+.log__verion {
+    display: block;
+
+    font-size: 24px;
+    line-height: 32px;
+    color: #432e30;
+    font-weight: 600;
+}
+
+.log__time {
+    font-weight: 300;
+}
+
+.log__item {
+    font-size: 22px;
+    line-height: 30px;
+
+    list-style-type: disc;
+}
 
 /* Footer */
 .footer {

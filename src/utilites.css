@@ -11,7 +11,7 @@
 }
 
 .margin-b-32 {
-	margin-bottom: 32px;
+	margin-bottom: 32px !important; 
 }
 
 .margin-b-56 {
@@ -24,5 +24,9 @@
 
 .margin-l-22 {
 	margin-left: 22px;
+}
+
+.padding-none {
+	padding: 0 !important;
 }
 
