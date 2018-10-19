@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   font-family: inherit;
-  margin: 6px;
 }
 
 .tabs {
@@ -20,7 +19,7 @@
 }
 
 .tabs__label  {
-  padding: 10px 14px 7px;
+  padding: 10px 14px 11px;
   font-size: 20px;
   line-height: 27px;
   border-bottom: 2px;
@@ -67,5 +66,4 @@
 }
 .tabs__input:checked + .tabs__label {
   border-bottom-color: #432e30;
-} 
-
+}

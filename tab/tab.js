@@ -1,17 +1,20 @@
+const tabsContainer = $(".tabs");
+const tabsContent = $(".tabs__content").hide();
+let activeTab;
 
-function tabFunction(evt, osType) {
-    var i, tabs__content, tablabels;
-    tabs__content = document.getElementsByClassName("tabs__content");
-    for (i = 0; i < tabs__content.length; i++) {
-        tabs__content[i].style.display = "none";
+function tabFunction(osType) {
+    activeTab && activeTab.hide();
+    activeTab = $(`#${osType}`).show();
+}
+
+tabsContainer.click((e) => {
+    const { target } = e;
+
+    if (!target.dataset.os) {
+        e.stopPropagation();
+    } else {
+        tabFunction(target.dataset.os);
     }
-    
-   
-    document.getElementById(osType).style.display = "block";
+});
 
-
-    
-
-}   
-
-
+tabFunction('mac');
