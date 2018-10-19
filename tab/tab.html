@@ -2,45 +2,41 @@
 <html>
 <head>
 	<title>Tab</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="tab.css">
 	<script src="myscripts.js"></script>
 </head>
 <body>
-	<div class="instruction">
-		<h2 class="heading heading_paragraphs">Installation</h2>
-		<div class="tabs">
-			<div class="tabs__item">
-				<input type="radio" class="tabs__input" id ="mac-radio" name="tab" checked aria-hidden="true" onclick="tabFunction(event, 'mac')">
-				<label for="mac-radio" class="tabs__label">Mac</label>
-				<p class="tabs__content" id ="mac">
-					ну ты мажик
-				</p>
-			</div>
-			<div class="tabs__item">
-				<input type="radio" class="tabs__input" id ="linux-radio" name="tab" aria-hidden="true" onclick="tabFunction(event, 'linux')">
-				<label for="linux-radio" class="tabs__label">Linux</label>
-				<p class="tabs__content" id ="linux">
-					хипстор
-				</p>
-			</div>
-			<div class="tabs__item">
-				<input type="radio" class="tabs__input" id ="windows-radio" name="tab" aria-hidden="true" onclick="tabFunction(event, 'windows')">
-				<label for="windows-radio" class="tabs__label">Windows</label>
-				
+	<div class="tab-container">
+		<div class="instruction">
+			<h2 class="heading heading_paragraphs">Installation</h2>
+			<div class="tabs">
+				<div class="tabs__item">
+					<input type="radio" class="tabs__input" id ="mac-radio" name="tab" checked aria-hidden="true" onclick="tabFunction(event, 'mac')">
+					<label for="mac-radio" class="tabs__label tabs__label_mac">Mac</label>
+				</div>
+				<div class="tabs__item">
+					<input type="radio" class="tabs__input" id ="linux-radio" name="tab" aria-hidden="true" onclick="tabFunction(event, 'linux')">
+					<label for="linux-radio" class="tabs__label tabs__label_linux">Linux</label>
+				</div>
+				<div class="tabs__item">
+					<input type="radio" class="tabs__input" id ="windows-radio" name="tab" aria-hidden="true" onclick="tabFunction(event, 'windows')">
+					<label for="windows-radio" class="tabs__label tabs__label_windows">Windows</label>
+				</div>
 			</div>
 		</div>
 		<div class="tabs__list">
 			<p class="tabs__content"  id ="windows">
-				если у тебя винда, то заходиш в рутрекер))0
+				windows command
 			</p>
 			<p class="tabs__content" id ="linux">
-				хипстор
+				linux command
 			</p>
 			<p class="tabs__content" id ="mac">
-				ну ты мажик
+				mac command
 			</p>
 		</div>
-	</div>
+	</div>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="tab.js"></script>
 </body>

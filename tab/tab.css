@@ -2,14 +2,13 @@
   display: flex;
   justify-content: space-between;
   font-family: inherit;
-
-	padding-bottom: 70px;
-	margin-bottom: 75px;
+  margin: 6px;
 }
 
 .tabs {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .tabs__item {
@@ -21,7 +20,6 @@
 }
 
 .tabs__label  {
-	position: relative;
   padding: 10px 14px 7px;
   font-size: 20px;
   line-height: 27px;
@@ -33,7 +31,14 @@
 	z-index: 1;
 }
 
+.tab__label_active {
+  border-bottom-color: #432e30;
+}
+
 .tabs__label:hover {
+  border-bottom-color: #432e30;
+}
+.tabs__label:active {
   border-bottom-color: #432e30;
 }
 
@@ -46,16 +51,21 @@
 .tabs__input {
   display: none;
 }
+.tabs__list {
+}
 
+.tabs__content:last-child {
+  display: block;
+}
 .tabs__content {
-	position: absolute;
+  display: none;
 	background: #f8f8fa;
 	color: #8a7575;
 	border: 1px solid #f0e8e8;
 	width: 100%;
-	left: 0;
 	padding: 24px 0 24px 24px;
-	top: 36px;
 }
-
+.tabs__input:checked + .tabs__label {
+  border-bottom-color: #432e30;
+} 
 
