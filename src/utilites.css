@@ -2,6 +2,10 @@
 	text-align: center;
 }
 
+.text-right {
+	text-align: right;
+}
+
 .text-bright {
 	color: #fff !important;
 }
@@ -13,3 +17,12 @@
 .margin-b-56 {
 	margin-bottom: 56px;
 }
+
+.margin-r-22 {
+	margin-right: 22px;
+}
+
+.margin-l-22 {
+	margin-left: 22px;
+}
+
